@@ -1,0 +1,55 @@
+/* gujarat.css - estilos de gujarat.html */
+:root {
+    --acento: #ef6c00;
+    --fondo: #f4f6f8;
+    --texto: #222;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2, h3 { color: var(--acento); }
+
+header { text-align: center; }
+
+nav { margin: 8px 0; }
+
+nav a {
+    display: inline-block;
+    margin: 0 6px;
+    padding: 6px 14px;
+    background: var(--acento);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+nav a:hover { opacity: 0.8; }
+
+hr {
+    border: 0;
+    border-top: 2px solid var(--acento);
+    margin: 15px 0;
+}
+
+a { color: var(--acento); }
+
+img, iframe {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.video { text-align: center; margin: 20px 0; }
+.video iframe { height: 315px; }
+
+ul { padding-left: 25px; }
+
+p { text-align: justify; }
